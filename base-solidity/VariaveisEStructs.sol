@@ -24,7 +24,6 @@ contract Variaveis {
     // ==========================================
     // STRUCTS (Criando nossos próprios moldes)
     // ==========================================
-
     // Criando a "fôrma" do nosso Usuário
     struct Usuario {
         string nome;
@@ -38,7 +37,5 @@ contract Variaveis {
     // ==========================================
 
     // Criando um Array Dinâmico público para guardar os nossos usuários
-
     Usuario[] public listaDeUsuarios;
-
 }
